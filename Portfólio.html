@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfólio | Matheus Souza</title>
+		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="CSS/bootstrap.min.css">
+		<link rel="stylesheet" href="CSS/styles.css">
+		<script src="js/jQuery.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+	</head>
+	<body>
+		<header class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="img/udacity.svg" alt="Logo da Udacity" class="img-responsive logo">
+				</div>
+				<div class="col-md-6 text-right">
+					<h1 class="thick-font font-size-lg">Matheus Souza</h1>
+					<h2 class="thin-font">Front-End<br> Developer</h2>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="container-full">	
+				<div class="row">
+					<div class="col-md-12">
+						<img src="img/principal.jpeg" 
+						srcset="img/principal.jpeg 1140w,
+						img/principal-medium.jpeg 800w,
+						img/principal-small.jpeg 400w" 
+						sizes="(max-width: 360px) 330px,
+						(max-width: 768px) 738px,
+						1349px" 
+						alt="Code on Sublime Text" class="img-responsive tamanho-total">
+					</div>
+				</div>
+			</section>
+			<section class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="thick-font">Trabalhos Relacionados</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="img/mockup.png" alt="Projeto Mockup to Article" class="img-responsive rounded-border" data-toggle="modal" data-target="#project1">
+						<p class="text-center thin-font font-size-sm position">Projeto Mockup to Article</p>
+					</div>
+					<div class="col-md-4">
+						<img src="img/cardteste.png" alt="Projeto Cartões Colecionáveis" data-toggle="modal" data-target="#project2" class="img-responsive rounded-border">
+						<p class="text-center thin-font font-size-sm position1">Projeto Cartões Colecionáveis</p>
+					</div>
+					<div class="col-md-4">
+						<img src="img/portfolio.png" alt="Site Portfólio" data-toggle="modal" data-target="#project3" class="img-responsive rounded-border">
+						<p class="text-center thin-font font-size-sm position2">Projeto Site de Portfólio</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		    <!-- Modal -->
+	    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="modalproject1" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="modalproject1">Projeto Mockup to Article</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/mockup.png" alt="Mockup to Article">
+						<em>Mockup to Article</em> foi um projeto que, embora possa parecer simples, exercita algo que julgo ser de extrema importante para qualquer profissional: a habilidade de identificar os recursos necessários para recriar um trabalho.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="modalproject2" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="modalproject2">Cartões Colecionáveis</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/cardteste.png" alt="Cartões Colecionáveis">
+                    Sendo uma ótima forma de fixação do uso de CSS, o projeto Cartões Colecionáveis também me fez aprender bastante sobre o avestruz! ;)
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	                </div>
+	            </div>
+	        </div>
+ 	    </div>
+	    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="modalproject3" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="modalproject3">Website Portfólio</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/portfolio.png" alt="Portfólio">
+                    O projeto de criação de um site de portfólio é a soma de todo o conhecimento agregado de HTML e CSS, resultando em um site prático e responsivo.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+ 	                </div>
+	            </div>
+	        </div>
+ 	    </div>
+	</body>
+</html>
